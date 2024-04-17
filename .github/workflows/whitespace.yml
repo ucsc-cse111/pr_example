@@ -10,6 +10,6 @@ jobs:
       - uses: actions/checkout@v3
       - name: Check for whitespace
         run: |
-          if grep -nHR '[[:space:]]$' .; then
+          if grep -nHR '[[:space:]]$' . --exclude-dir=.git; then
             exit 1
           fi
