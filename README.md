@@ -1,4 +1,4 @@
 
-# PR Example
+# GitHub PR Example
 
-This Repo is a sandbox to give demonstrations of Git and GitHub.
+Hello! Welcome to this GitHub sandbox repo!
