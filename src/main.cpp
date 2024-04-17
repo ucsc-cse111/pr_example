@@ -8,6 +8,7 @@ using namespace std;
 int main(int argc, char *argv[]) {
   // Check if the user has provided the correct number of arguments
   if (argc != 4) {
+    cout << "Invalid Call" << endl;
     cout << "Usage: " << argv[0] << " <a> <b> <c>" << endl;
     return 1;
   }
